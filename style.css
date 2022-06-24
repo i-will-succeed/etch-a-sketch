@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    /* background: radial-gradient(50% 123.47% at 50% 50%, #99d3b8 0%, #720059 100%), linear-gradient(121.28deg, #99d3b8 0%, #FF0000 100%), linear-gradient(360deg, #f04991 0%, #000000 100%), radial-gradient(100% 164.72% at 100% 100%, #ff666d 0%, #00FF57 100%), radial-gradient(100% 148.07% at 0% 0%, #b5b38d 0%, #51D500 100%); */
+    /* background-blend-mode: screen, color-dodge, overlay, difference, normal; */
+    /* background-size: 200% 200%; */
+}
+
+
+/* .grid-shell {
+    display: flex;
+    border: 1px red solid;
+    border-radius: 10px;
+    height: auto;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.grid-container {
+    display: grid;
+    width: 450px;
+    margin-inline: auto;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: 1px red solid
+}
+
